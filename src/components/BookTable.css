@@ -1,0 +1,39 @@
+.input-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+    justify-content: right;
+    align-items: center;
+}
+
+
+
+.iinside{
+   background-color:lightslategrey;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btns-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-warning{
+    background-color: #FFC108;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-danger{
+    background-color: #DC3545;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+}
