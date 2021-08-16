@@ -14,9 +14,16 @@
     padding: 20px;
     border-radius: 20px;
     color: white;
+    transition: 0.3s;
     flex-grow: 1;
     width: 300px;
     height: 200px;
+}
+
+.iinside:hover{
+background-color: rgb(54, 62, 70);
+padding: 25px;
+cursor: pointer;
 }
 
 .btns-1{
@@ -33,6 +40,12 @@
     border-radius: 8px;
 }
 
+.btn-warning:hover{
+    cursor: pointer;
+    background-color: #b98d08;
+
+}
+
 .btn-danger{
     background-color: #DC3545;
     color: white;
@@ -40,3 +53,9 @@
     border: none;
     border-radius: 8px;
 }
+
+.btn-danger:hover{
+    background-color: #da0117;
+    cursor: pointer;
+}
+
